@@ -1,0 +1,56 @@
+body {
+  color:white;
+  background-color: black;
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 50px;
+}
+header {
+  border-bottom: solid 2px black;
+  padding: 10px;
+  font-size: 30px;
+  color: black;
+}
+.chamada{
+  background-color: rgb(42,200,228);
+  padding-bottom: 80px;
+  padding-top:80px;
+  display: flex;
+  justify-content: center;
+}
+.chamada-de-texto{
+  margin-right: 5%;
+}
+
+h1{
+  font-size: 40px;
+}
+
+p{
+  font-size: 30px;
+}
+
+.categoria-de-videos{
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.categoria{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.categoria-de-videos img{
+  opacity: 0.5;
+  height: 200px;
+}
+
+.categoria-de-videos img:hover{
+  opacity: 1.0;
+  border: 1px solid green;
+}
+
+.categoria h2{
+  color: black;
+}
